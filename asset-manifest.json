@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alicemao03.github.io/static/css/main.f855e6bc.css",
+    "main.js": "/alicemao03.github.io/static/js/main.be2ab562.js",
+    "static/js/592.d49aab49.chunk.js": "/alicemao03.github.io/static/js/592.d49aab49.chunk.js",
+    "static/media/logo.svg": "/alicemao03.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/alicemao03.github.io/index.html",
+    "main.f855e6bc.css.map": "/alicemao03.github.io/static/css/main.f855e6bc.css.map",
+    "main.be2ab562.js.map": "/alicemao03.github.io/static/js/main.be2ab562.js.map",
+    "592.d49aab49.chunk.js.map": "/alicemao03.github.io/static/js/592.d49aab49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.be2ab562.js"
+  ]
+}
