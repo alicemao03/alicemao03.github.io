@@ -36,7 +36,7 @@ function Calendar() {
                         <br></br>
                         <i class="project_note">This project was course work for <a id="cse330_link" href="https://classes.engineering.wustl.edu/cse330/index.php?title=Module_5">CSE 330S: Rapid Prototype and Development</a>.</i>
                         <br></br>
-                        <i class="project_note">Shout out <b class="shoutout">Philip Lisun</b> for being the best partner and letting me crash on the coach cause we finished it so late.</i>
+                        <i class="project_note">Shout out <b class="shoutout">Philip Lisun</b> for being the best partner and letting me crash on the couch cause we finished it so late.</i>
                     </div>
                 </div>
             </div>
