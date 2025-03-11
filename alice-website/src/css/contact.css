@@ -9,8 +9,6 @@
 }
 
 #contact {
-  /* background-color: #B2C9AB;*/
-  /* background-color: white; */
   background-color: #92B6B1;
   padding-left: 3%;
   padding-right: 3%;
@@ -18,7 +16,7 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 #contact_main {
@@ -27,20 +25,19 @@
   padding-right: 10%;
   justify-content: space-around;
   align-items: flex-start;
-  /* height: ; For 100% screen height */
   width: 80%;
-  /* background-color: #788AA3; */
   background-color: #92B6B1;
-
   color: white;
+  font-size: 20px;
 }
 
 .Contact_title{
   margin-top: 0%;
+  font-weight: 700;
 }
 
 .box {
-  margin: 4%;
+  margin: 2%;
 }
 
 a {

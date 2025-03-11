@@ -7,13 +7,6 @@ function Home() {
   return (
     <div>
       <div id="home">
-        <div className="navbar-right">
-          <Link to="#project_main" class="nav_links">Projects</Link>
-          <h3>|</h3>
-          <a class="nav_links" href="https://linkedin.com/in/alicehmao">LinkedIn</a>
-          <h3>|</h3>
-          <a class="nav_links" href={process.env.PUBLIC_URL + "/images/Alice_Resume.pdf"} >Resume</a>
-        </div>
         <div class="home_main">
           {/* <div class="box">
           <img src={process.env.PUBLIC_URL + "/images/grad_pic.png"} id="my_pic" alt="my_pic" />
@@ -25,17 +18,24 @@ function Home() {
             <p id="sub_name">Computer scientest | UX Designer</p>
             {/* <p>Hi again! I'm Alice. I'm a currently studying computer science at Washington University in St. Louis. </p> */}
           </div>
-          <div class="down_arrow" onClick={() => {
+          <div className="navbar-right">
+            <Link to="/projects" class="nav_links">Projects</Link>
+            <h3>|</h3>
+            <a class="nav_links" href="https://linkedin.com/in/alicehmao">LinkedIn</a>
+            <h3>|</h3>
+            <a class="nav_links" href={process.env.PUBLIC_URL + "/images/Alice_Resume.pdf"} >Resume</a>
+          </div>
+          {/* <div class="down_arrow" onClick={() => {
             const section = document.getElementById('project_main');
             if (section) {
               section.scrollIntoView({ behavior: 'smooth' });
             }
           }}>
             <RiArrowDownWideLine />
-          </div>
+          </div> */}
         </div>
       </div>
-      <Projects />
+      {/* <Projects /> */}
     </div>
   );
 }

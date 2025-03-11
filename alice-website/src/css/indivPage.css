@@ -1,4 +1,4 @@
-.indiv_page{
+.indiv_page {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -9,51 +9,72 @@
     text-align: center;
 }
 
-.indiv_page hr{
+.indiv_page hr {
     background-color: black;
     color: black;
 }
 
-.indiv_project_body{
+.indiv_project_body {
     display: flex;
     text-align: left;
     margin-left: 5em;
     margin-right: 5em;
     align-items: flex-start;
-    margin-top: 1em;
+    margin-top: 0em;
     margin-bottom: 2em;
 }
 
-.project_media{
+.project_media {
     align-items: center;
     text-align: center;
 }
 
 
-.project_table{
+.project_table {
     margin-right: 6em;
 }
 
-.project_facts{
+.project_facts {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.project_fact{
+.project_fact {
     font-weight: bold;
 }
 
-.indiv_project_body{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.project_description{
-    font-size: 20px;
+.project_description {
+    font-size: 18px;
     margin-top: 1em;
 }
 
-.project_description p{
+.project_description p {
     margin-top: 0;
 }
 
+
+.project_note {
+    font-size: 14px;
+}
+
+.project_info {
+    font-size: 18px;
+}
+
+.shoutout {
+    font-weight: 500;
+}
+
+#spotify_vis {
+    margin-top: 1em;
+}
+
+#cse330_link {
+    color: #2e82cc;
+}
+#cse330_link:link {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+
+}

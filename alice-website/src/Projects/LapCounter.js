@@ -1,6 +1,7 @@
 import '../css/indivPage.css';
 import Navbar from '../Navbar';
 import Contact from '../Contact';
+import { FaGithub } from "react-icons/fa";
 
 function LapCounter() {
     return (
@@ -18,16 +19,23 @@ function LapCounter() {
                             <div class="project_info">2024</div>
                         </div>
                         <div class="project_facts">
-                            <div class="project_fact">Type</div>
-                            <div class="project_info">Group Project</div>
-                        </div>
-                        <div class="project_facts">
                             <div class="project_fact">Language/Skills</div>
                             <div class="project_info">Python</div>
                         </div>
+                        <div class="project_facts">
+                            <div class="project_fact">Links</div>
+                            <div class="project_info">
+                                <div class="project_links">
+                                    <a href="https://github.com/amao03/lap-counter" class="github_button"><FaGithub /></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="project_description">
-                        <p> Wearable devices excel at tracking steps and running distances but fall short when it comes to counting swimming laps. This issue was highlighted by Dante Cannarozzi, an adjunct instructor at WashU. To address this, my partner and I developed a prototype using the OpenCV Python library to track swimmers and detect when they completed a lap, using a colored cap for identification. We began by processing recorded videos and eventually advanced to tracking swimmers in live-stream footage. To enhance accessibility, we built a user-friendly GUI for easier interaction.
+                        <p>
+                            Wearable devices excel at tracking steps and running distances but fall short when it comes to counting swimming laps. This issue was highlighted by Dante Cannarozzi, an adjunct instructor at WashU. To address this, my partner, Isabel Boufarah, and I developed a prototype using the OpenCV Python library to track swimmers and detect when they completed a lap, using a colored cap for identification. We began by processing recorded videos and eventually advanced to tracking swimmers in live-stream footage. To enhance accessibility, we built a user-friendly GUI for easier interaction.
+                            <br></br><br></br>
+                            <i class="project_note">This project was course work for CSE 454A: Software Engineering for External Client.</i>
                         </p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ function Contact() {
                 </div>
                 <div class="contact">
                     <h3 class="contact_type">LinkedIn</h3>
-                    <p class="contact_info"><FaLinkedin /> <a href="www.linkedin.com/in/alicehmao">Connect with me</a></p>
+                    <p class="contact_info"><FaLinkedin /> <a href="https://linkedin.com/in/alicehmao">Connect with me</a></p>
                 </div>
                 <div class="contact">
                     <h3 class="contact_type">Github</h3>

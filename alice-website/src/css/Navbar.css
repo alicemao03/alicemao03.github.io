@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #92B6B1;
     color: #fff;
     /* padding: 1rem; */
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -44,4 +44,11 @@
 .nav_links:hover {
     text-decoration: underline;
     text-underline-offset: 10px;
+}
+
+.name:link{
+    text-decoration: none;
+}
+.name:hover{
+    text-decoration: none;
 }
