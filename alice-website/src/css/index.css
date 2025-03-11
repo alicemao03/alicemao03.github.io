@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:link {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px; 
+}
+
+a:visited {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+a:active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+

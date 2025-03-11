@@ -1,0 +1,59 @@
+.indiv_page{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.indiv_page hr{
+    background-color: black;
+    color: black;
+}
+
+.indiv_project_body{
+    display: flex;
+    text-align: left;
+    margin-left: 5em;
+    margin-right: 5em;
+    align-items: flex-start;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.project_media{
+    align-items: center;
+    text-align: center;
+}
+
+
+.project_table{
+    margin-right: 6em;
+}
+
+.project_facts{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.project_fact{
+    font-weight: bold;
+}
+
+.indiv_project_body{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.project_description{
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.project_description p{
+    margin-top: 0;
+}
+

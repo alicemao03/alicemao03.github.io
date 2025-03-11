@@ -1,0 +1,45 @@
+
+  
+  #about_main{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+  }
+  
+  .box{
+    margin: 4%;
+  }
+  
+  .down_arrow{
+    display: relative;
+    font-size: 60px;
+    text-align: center;
+    margin: none;
+    animation: bounce 2s infinite ease-in-out;
+  
+  }
+  
+  @keyframes bounce {
+    0%,  100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .my_pic{
+    border: 20px solid rgb(112, 235, 186);
+    border-radius:2%;
+    overflow:hidden;
+  }
+  
+  .down_button{
+    margin: none;
+    padding: none;
+    border: none;
+  }
+  
