@@ -1,0 +1,125 @@
+.project-layout {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+    color: #2f2f2f;
+}
+
+.project-header {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+    color: #607B7D;
+}
+
+.project-date {
+    font-size: 1rem;
+    color: #888;
+    margin: 0%;
+}
+
+.indiv-project-tags {
+    font-size: 0.95rem;
+    color: #1d1d1d;
+    margin: 1%;
+    opacity: 0.8;
+}
+
+.project-icon {
+    font-size: 1.3rem;
+    color: #1d1d1d;
+    opacity: 0.8;
+    transition: color 0.2s ease;
+}
+
+.project-icon:hover {
+    color: #607B7D;
+}
+
+
+.project-media,
+.project-media-grid img,
+video {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 2rem 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.project-media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.iframe-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 2rem 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.iframe-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.project-body {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+.project-collaborator {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #6a6a6a;
+}
+
+.indiv-project-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.project-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 1.1rem;
+}
+
+.nav-arrow {
+    color: #607B7D;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-arrow:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+}
+
+.right-arrow {
+    justify-content: end;
+    text-align: right;
+}
+
+.code {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
