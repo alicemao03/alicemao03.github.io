@@ -29,10 +29,10 @@ const Navbar = () => {
                     x
                 </button>
 
-                <Link class="nav_links" to={{ pathname: "/", hash: "#about-main" }}>About</Link>
+                {/* <Link class="nav_links" to={{ pathname: "/", hash: "#about-main" }}>About</Link> */}
                 <Link class="nav_links" to={{ pathname: "/", hash: "#portfolio-section" }}>Works</Link>
                 <a class="nav_links" href="https://linkedin.com/in/alicehmao">LinkedIn</a>
-                <a class="nav_links" href={process.env.PUBLIC_URL + "/images/Alice_Resume.pdf"} >Resume</a>
+                <a class="nav_links" href={process.env.PUBLIC_URL + "/images/alice_mao_cv.pdf"} >CV</a>
             </div>
         </nav>
     );

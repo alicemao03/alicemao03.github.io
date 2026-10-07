@@ -8,11 +8,16 @@
 
 .connection-buttons {
     display: flex;
+    flex-direction: column;
 }
 
 .icon-links {
     color: #607B7D;
     font-size: 30px;
+}
+
+.section-body {
+    margin: 5% 0%;
 }
 
 
@@ -22,10 +27,36 @@
 
 .name {
     font-size: 4rem;
+    color: #607B7D;
+}
+
+.subtext{
+    opacity: 90%;
+    color: #607B7D;
+}
+
+.highlight {
+    text-decoration: underline;
+    text-decoration-color: #607B7D;
+    text-underline-offset: 3px;
+    font-weight: bolder;
+    color: #607B7D;
+}
+
+.section-body{
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.link-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 }
 
 .resume {
-    margin-top: 10%;
+    margin-top: 2%;
     margin-bottom: 3%;
 }
 
@@ -47,6 +78,7 @@
     z-index: 1;
     animation: pulse-ring 2s infinite ease-in-out;
 }
+
 
 @keyframes pulse-ring {
     0% {
@@ -115,6 +147,7 @@
 
     .connection-buttons {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
 

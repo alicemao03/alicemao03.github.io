@@ -16,8 +16,8 @@ function PSAs() {
                     process.env.PUBLIC_URL + '/images/fire_text.png'
                 ]}
                 links={[]}
-                prevPage={"calendar"}
-                prevPageTitle={"The Better Calendar"}
+                prevPage={"hackathon"}
+                prevPageTitle={"Hack WashU 2023"}
                 nextPage={"sail"}
                 nextPageTitle={"Sensory and Ambient Interface Lab"}
             >

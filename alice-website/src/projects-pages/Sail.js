@@ -13,8 +13,8 @@ function SAIL() {
                 tags={['Research', 'Swift', 'XCode']}
                 media={{ type: 'video', src: "/images/sail_demo.mov", loop: true, auto: true }}
                 links={[{ icon: <FaLink />, link: "https://samfoxschool.washu.edu/collaborations/sensory-and-ambient-interfaces-lab" }]}
-                prevPage={"svt_vis"}
-                prevPageTitle={"SEVENTEEN in Color"}
+                prevPage={"PSAs"}
+                prevPageTitle={"Precision, Simplicity, Appeal"}
                 nextPage={"lap_counter"}
                 nextPageTitle={"Swimming Lap Counter"}
             >

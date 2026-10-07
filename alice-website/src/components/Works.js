@@ -34,7 +34,7 @@ function Works() {
     return (
         <div class="section-main" id="portfolio-section">
             <div class="works-header">
-                <div class="section-title">Works</div>
+                <div class="section-title">Projects</div>
                 <div class="view-toggle">
                     <button
                         class={viewMode === 'list' ? 'active' : ''}

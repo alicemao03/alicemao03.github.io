@@ -24,7 +24,7 @@ function Home() {
     <>
       <Navbar />
       <Landing />
-      <About />
+      {/* <About /> */}
       <Works />
       <Contact />
     </>

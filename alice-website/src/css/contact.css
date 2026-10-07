@@ -3,8 +3,22 @@
   flex-direction: column;
   background-color: #f8f8f8;
   border-top: 1px solid #ddd;
+  color: #607b7d;
   justify-content: center;
   align-items: center;
+  gap: 5px;
+  padding: 1% 0%;
+}
+
+.contact-footer{
+  display: flex;
+  color: #607b7d;
+  gap: 2rem;
+}
+
+.contact-footer a{
+  text-decoration-color: 607b7d;
+  color: #607b7d;
 }
 
 .contact-info {
@@ -42,7 +56,7 @@
 
 @media (max-width: 900px) {
   .contact-info {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }

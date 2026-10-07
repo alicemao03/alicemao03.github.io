@@ -15,8 +15,8 @@ function Hackathon() {
                 links={[{ icon: <FaGithub />, link: 'https://github.com/alicemao03/j-g-sivamohan/Hackathon_fl_23' }]}
                 prevPage={"silverstone"}
                 prevPageTitle={"Silverstone App"}
-                nextPage={"calendar"}
-                nextPageTitle={"The Better Calendar"}
+                nextPage={"PSAs"}
+                nextPageTitle={"Precision, Simplicity, Appeal"}
             >
                 <div class="project-body">
                     <p>
